@@ -1,0 +1,193 @@
+:root {
+  --primary-color: #f9a826;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0 auto;
+  max-width: 85%;
+  position: relative;
+}
+header {
+  background-color: var(--primary-color);
+  padding: 2rem;
+  border-radius: 0 0 0 50px;
+}
+.logo {
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav-items .nav-item {
+  list-style: none;
+  display: inline;
+  text-align: right;
+}
+.nav-items {
+  text-align: right;
+}
+.link {
+  color: black;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+.profile img {
+  padding: 2rem 0 0 0;
+  width: 550px;
+  height: 500px;
+  margin: auto;
+  max-width: 80%;
+  display: block;
+}
+
+.link:hover {
+  border-bottom: black 2px solid;
+}
+.active-link {
+  font-weight: bold;
+}
+
+/* link:active {
+  font-weight: bold;
+} */
+.hero-text {
+  text-align: center;
+  padding: 1rem;
+}
+span {
+  color: #f9a826;
+}
+
+/* section1  */
+
+.containers {
+  background-color: #f9a82659;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 0.7rem;
+}
+.container {
+  padding: 2rem;
+  text-align: center;
+}
+.tech-text {
+  margin-top: 1rem;
+  /* color: white; */
+}
+
+/* buttons */
+.btn-primary {
+  margin-top: 2rem;
+  border: none;
+}
+.btn-primary a {
+  text-decoration: none;
+  background-color: #f9a826c1;
+  padding: 1rem 1.2rem;
+  color: rgb(9, 9, 9);
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+.btn-primary img {
+  padding: 0 0.5rem;
+}
+
+/* hover */
+.btn-primary:hover {
+  transform: scale(0.95);
+}
+
+/* secondary button */
+.btn-secondary {
+  margin-top: 2rem;
+  border: none;
+  background: none;
+}
+.btn-secondary a {
+  text-decoration: none;
+  border: black 1px solid;
+  padding: 0.5rem 1.2rem;
+  color: black;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+.btn-secondary a:hover {
+  background-color: #e9e6e248;
+}
+
+/*footer*/
+.footer {
+  margin-top: 3rem;
+  background-color: var(--primary-color);
+  border-radius: 0 50px 0 0;
+}
+.footer-header h3 {
+  padding: 2rem;
+  text-align: center;
+}
+.list-items-inline ul li {
+  display: inline;
+}
+.list-items-inline ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+}
+.list-items-inline ul {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+/* project page */
+
+.title {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.neogcamp-projects {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: #f9a8265b;
+  border-radius: 10px;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+p {
+  padding: 1rem 0;
+}
+
+.projects_page_view_button {
+  margin: 0.75rem;
+  padding: 0.75rem;
+  letter-spacing: 0.1rem;
+  background-color: #f9a8269d;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.projects_page_view_button:hover {
+  transform: scale(0.98);
+}
+
+.projects_page_code_button {
+  margin: 0.75rem;
+  padding: 0.75rem;
+  letter-spacing: 0.1rem;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.projects_page_code_button:hover {
+  transform: scale(0.98);
+}
